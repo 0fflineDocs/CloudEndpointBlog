@@ -1,6 +1,7 @@
 module.exports = {
   corePlugins: {
     preflight: true,
+    darkMode: 'class',
     listStyleType: false,
   },
   purge: [
