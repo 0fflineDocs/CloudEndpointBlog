@@ -1,7 +1,6 @@
 module.exports = {
   corePlugins: {
     preflight: true,
-    darkMode: 'class',
     listStyleType: false,
   },
   purge: [
@@ -11,18 +10,36 @@ module.exports = {
   ],
   darkMode: 'class', // or 'class' or false
   theme: {
+    screens: {
+      sm: '480px',
+      md: '768px',
+      lg: '976px',
+      xl: '1440px',
+    },
+    colors: {
+      'blue': '#1fb6ff',
+      'purple': '#7e5bef',
+      'pink': '#ff49db',
+      'orange': '#ff7849',
+      'green': '#13ce66',
+      'yellow': '#ffc82c',
+      'gray-dark': '#273444',
+      'gray': '#8492a6',
+      'gray-light': '#d3dce6',
+    },
+    fontFamily: {
+      sans: ['Graphik', 'sans-serif'],
+      serif: ['Merriweather', 'serif'],
+    },
     extend: {
-      margin: {
-        '-104': '-26rem',
-        '-112': '-28rem',
-        '-120': '-30rem',
+      spacing: {
+        '128': '32rem',
+        '144': '36rem',
       },
-      screens: {
-        '3xl': '1600px',
-        '4xl': '1920px'
+      borderRadius: {
+        '4xl': '2rem',
       }
     }
-
   },
   variants: {
     extend: {},
