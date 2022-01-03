@@ -1,5 +1,5 @@
-title: Your awesome title
-description: My awesome site
+title: 0fflineDocs Cloud Endpoint Blog
+description:  Modern Device Management
 permalink: /:slugified_categories/:title/
 
 date_format: "%b %-d, %Y"

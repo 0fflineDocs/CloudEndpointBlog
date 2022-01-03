@@ -1,65 +1,21 @@
 {
-    // See https://go.microsoft.com/fwlink/?LinkId=733558
-    // for the documentation about the tasks.json format
-    "version": "2.0.0",
-    "tasks": [
-        {
-            "label": "Jekyll: New Post",
-            "type": "shell",
-            "command": [
-                "jekyll compose \"${input:Title}\""
-            ],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-            "presentation": {
-                "echo": true,
-                "reveal": "always",
-                "focus": false,
-                "panel": "shared",
-                "showReuseMessage": true,
-                "clear": false
-            },
-            "problemMatcher": []
-        },
-        {
-            "type": "npm",
-            "script": "start",
-            "problemMatcher": [
-                "$eslint-stylish"
-            ],
-            "label": "NPM: Start",
-            "detail": "concurrently -k --restart-tries 3 --restart-after 3000 -p [{name}] -n webpack,jekyll -c yellow,cyan npm:watch:webpack npm:watch:jekyll"
-        },
-        {
-            "label": "Jekyll: Build Dev",
-            "detail": "bundle install && npm install && npm run dev && npm start",
-            "type": "shell",
-            "linux":{
-                "command": "bundle install && npm install && npm run dev && npm start"
-            },
-            "group":{
-                "kind": "build",
-                "isDefault": true
-            },
-            "presentation": {
-                "echo": true,
-                "reveal": "always",
-                "focus": false,
-                "panel": "shared",
-                "showReuseMessage": true,
-                "clear": false
-            },
-            "problemMatcher":["$eslint-stylish","$jekyll-error-watch", "$jekyll-warning-watch"]
-        }
-    ],
-    "inputs": [
-        {
-            "description": "What are you going to write about today?",
-          "id": "Title",
-          "type": "promptString",
-          "default": "Something cool!"
-        }
-      ]
+    "label": "Jekyll: Build Dev",
+    "detail": "bundle install && npm install && npm run dev && npm start",
+    "type": "shell",
+    "linux":{
+        "command": "bundle install && npm install && npm run dev && npm start"
+    },
+    "group":{
+        "kind": "build",
+        "isDefault": true
+    },
+    "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared",
+        "showReuseMessage": true,
+        "clear": false
+    },
+    "problemMatcher":["$eslint-stylish","$jekyll-error-watch", "$jekyll-warning-watch"]
 }
