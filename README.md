@@ -7,19 +7,6 @@ and [Alpine.js](https://github.com/alpinejs/alpine/).
 [![Use this template](https://img.shields.io/badge/template-Generate-green?style=for-the-badge)](https://github.com/tabs-not-spaces/jekyll-starter/generate)
 [![Unlicense](https://img.shields.io/badge/license-Unlicense-blue?style=for-the-badge)](https://choosealicense.com/licenses/unlicense/)
 
-## Getting Started
-
-Working from an assumption that you are building on a Windows device with WSL2 + Docker installed, everything you need to get started building your Jekyll site with Tailwind CSS is included in this template.
-
-- Click the "Open in Visual Studio Code" button in this readme. 
-- Select "Clone repo in container volume".
-- Follow the bouncing ball.
-- Once the container is built & the repo is cloned:
-    - open the command pallette (ctrl+shift+P), search for "Run Task".
-    - Run the included "Jekyll: Build Dev" task.
-
-You should now have everything built and running that you need to start working on your site 🚀
-
 ## What's Included
 
 This is not a Jekyll theme. It's a starting point to create a website using
