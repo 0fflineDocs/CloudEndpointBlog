@@ -22,6 +22,7 @@
         "eslint": "^7.24.0",
         "eslint-config-airbnb-base": "^14.2.1",
         "eslint-plugin-import": "^2.22.1",
+        "postcss-import": "^14.0.2",
         "postcss-loader": "^5.2.0",
         "tailwindcss": "^2.1.1"
     },
