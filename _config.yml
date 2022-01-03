@@ -1,0 +1,13 @@
+title: Your awesome title
+description: My awesome site
+permalink: /:slugified_categories/:title/
+
+date_format: "%b %-d, %Y"
+
+exclude:
+  - "package*.json"
+  - "*.config.js"
+  - netlify.toml
+  - README.md
+  - LICENSE
+  - Makefile
