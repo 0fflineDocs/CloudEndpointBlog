@@ -9,9 +9,7 @@ and [Alpine.js](https://github.com/alpinejs/alpine/).
 
 This is not a Jekyll theme. It's a starting point to create a website using
 [Jekyll](https://jekyllrb.com/), [Tailwind CSS](https://tailwindcss.com/), and
-[Alpine.js](https://github.com/alpinejs/alpine/). The layout includes almost
-nothing, allowing you to start building right away instead of having to remove
-code you won't use.
+[Alpine.js](https://github.com/alpinejs/alpine/). 
 
 If you want to start creating posts and pages, we've included the
 [Jekyll::Compose](https://github.com/jekyll/jekyll-compose) plugin.
